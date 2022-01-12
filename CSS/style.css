@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#stopwatch {
+    /* width: 1000px; */
+    height: 300px;
+    border: 2px solid purple;
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 180px;
+    border: 2px solid red;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 55px;
+    font-size: 50px;
+}
+
+span>p {
+    font-size: 100px;
+}
+
+.btn {
+    display: inline-block;
+    /* display: block; */
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid blue;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.btn:active {
+    background-color: blue;
+    color: white;
+}

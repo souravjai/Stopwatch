@@ -1,0 +1,23 @@
+#stopwatch {
+    flex-direction: column;
+    height: 500px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: slateblue;
+}
+
+span {
+    padding: 45px;
+    height: 10px;
+    width: 130px;
+    border-radius: 10px;
+    border-color: red;
+    font-size: 70px;
+    margin: 7px 10px;
+    font-size: 30px;
+}
+
+span>p {
+    font-size: 50px;
+    ;
+}
